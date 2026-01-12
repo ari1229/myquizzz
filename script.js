@@ -804,7 +804,7 @@ function unlockGraph() {
   adOverlay.innerHTML = `
     <p style="margin-bottom:10px; font-weight:bold;">広告再生中...</p>
     <video id="ad-video" width="100%" style="border-radius:10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" autoplay muted playsinline>
-      <source src=".image/movie.mp4" type="video/mp4">
+      <source src="./image/movie.mp4" type="video/mp4">
       お使いのブラウザは動画再生に対応していません。
     </video>
     <p style="font-size:12px; color:#888; margin-top:5px;">動画終了後にグラフが表示されます</p>
